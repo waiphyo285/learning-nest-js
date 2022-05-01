@@ -15,6 +15,7 @@ import { Server } from 'socket.io';
         origin: '*',
     },
 })
+
 export class EventsGateway {
     @WebSocketServer()
     server: Server;
