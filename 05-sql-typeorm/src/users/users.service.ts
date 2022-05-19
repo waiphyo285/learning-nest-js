@@ -22,7 +22,7 @@ export class UsersService {
   }
 
   async createUser(user: User) {
-    this.usersRepository.save(user);
+    this.usersRepository.create(user);
   }
 
   async updateUser(user: User) {
