@@ -1,4 +1,5 @@
-# Part-2--Webpack-package-nestjs-application
+# Setup Webpack Package
+
 The code demonstrates the power of hot module reloading and packaging of NestJs application using Webpack
 
 ## Installation
@@ -25,4 +26,3 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
