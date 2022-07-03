@@ -15,7 +15,7 @@ let CatsModule = class CatsModule {
 CatsModule = __decorate([
     (0, common_1.Module)({
         controllers: [cats_controller_1.CatsController],
-        providers: [cats_service_1.CatsService]
+        providers: [cats_service_1.CatsService],
     })
 ], CatsModule);
 exports.CatsModule = CatsModule;

@@ -14,16 +14,13 @@ const swagger_1 = require("@nestjs/swagger");
 class Cat {
 }
 __decorate([
-    (0, swagger_1.ApiProperty)({
-        example: 1,
-        description: "The age of the Cat"
-    }),
+    (0, swagger_1.ApiProperty)({ example: 1, description: 'The age of the Cat' }),
     __metadata("design:type", Number)
 ], Cat.prototype, "age", void 0);
 __decorate([
     (0, swagger_1.ApiProperty)({
-        example: "Fired fish",
-        description: "The breed of the Cat"
+        example: 'Maine Coon',
+        description: 'The breed of the Cat',
     }),
     __metadata("design:type", String)
 ], Cat.prototype, "breed", void 0);

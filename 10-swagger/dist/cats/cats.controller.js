@@ -31,13 +31,8 @@ let CatsController = class CatsController {
 };
 __decorate([
     (0, common_1.Post)(),
-    (0, swagger_1.ApiOperation)({
-        summary: "Create cat"
-    }),
-    (0, swagger_1.ApiResponse)({
-        status: 403,
-        description: "Forbidden"
-    }),
+    (0, swagger_1.ApiOperation)({ summary: 'Create cat' }),
+    (0, swagger_1.ApiResponse)({ status: 403, description: 'Forbidden.' }),
     __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [create_cat_dto_1.CreateCatDto]),
@@ -57,7 +52,7 @@ __decorate([
 ], CatsController.prototype, "findOne", null);
 CatsController = __decorate([
     (0, swagger_1.ApiBearerAuth)(),
-    (0, swagger_1.ApiTags)("cats"),
+    (0, swagger_1.ApiTags)('cats'),
     (0, common_1.Controller)('cats'),
     __metadata("design:paramtypes", [cats_service_1.CatsService])
 ], CatsController);
