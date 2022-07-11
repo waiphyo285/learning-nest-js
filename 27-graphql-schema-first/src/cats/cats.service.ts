@@ -6,7 +6,7 @@ export class CatsService {
     private readonly cats: Array<Cat & { ownerId?: number }> = [
         {
             id: 1,
-            name: 'Cat',
+            name: 'Bob',
             age: 5,
             ownerId: 1
         },
